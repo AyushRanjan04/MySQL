@@ -1,0 +1,34 @@
+Assignment – 1
+Q1. Objective:
+Create a SQL query to generate a report that lists each passenger's ID along with their full name, formatted as "Firstname Lastname". This report will be used for easier identification of passengers in systems that require full name visibility.
+Task Details:
+Write a SQL query to concatenate the first name and last name of each passenger into a single column labeled "FullName", and then display this along with the passenger ID.
+Expected Results Format:
+•	Columns to display: Passenger ID, Full Name
+•	Order the results by the Full Name in alphabetical order for primary sorting.
+•	Use the Passenger ID as a secondary sorting criterion to handle cases where two passengers might have the same full name.
+ 
+Q2. Objective: Create a SQL query to generate a report that lists all flights departing on Fridays. This report is aimed at analyzing flight schedules to better understand traffic patterns and staffing needs on weekends.
+Task Details: Write a SQL query that selects the flight ID and departure time for flights that depart specifically on a Friday. This will help identify flights that could have an impact on weekend travel and operations.
+Expected Results Format:
+•	Columns to display: Flight ID, Departure Time
+•	Order the results by Flight ID in ascending order.
+ 
+Q3. Objective: Create a SQL query to produce a report that lists all flights operating in June, detailing the flight ID, the airline name in uppercase, and the month of departure. This report aims to assist in evaluating airline activity during the peak travel month of June.
+Task Details: Write a SQL query that selects the flight ID, converts the airline's name to uppercase, and identifies the departure month for flights departing in June.
+Expected Results Format:
+•	Columns to display: Flight ID, Airline Name (in uppercase), Departure Month
+•	Order the results by Airline Name in descending order, and by Flight ID as a secondary sorting criterion.
+ 
+Q4. Objective: Develop a SQL query to produce a report that summarizes the number of flights operated by each airline on each day of the week. This report aims to help analyze traffic patterns and optimize airline scheduling strategies.
+Task Details: Write a SQL query that calculates the number of flights each airline operates on each day of the week.
+Expected Results Format:
+•	Columns to display: Airline Name, Day of the Week, Flight Count
+•	Order the results primarily by the total number of flights in descending order, then by the day of the week and airline name.
+ 
+Q5. Objective: Develop a SQL query to generate a report that identifies passengers whose latest booking fare has increased compared to their previous booking. This report aims to analyze fare trends and passenger spending behavior over time.
+Task Details: Write a SQL query to compare the current booking fare with the previous fare for each passenger. The goal is to select only those records where the latest fare is greater than the previous fare, indicating an increase.
+Expected Results Format:
+•	Columns to display: Passenger ID, Latest Fare, Previous Fare
+•	Order the results by Previous Fare in ascending order, then by Latest Fare in ascending order, and finally by Passenger ID to organize the data efficiently.
+ 

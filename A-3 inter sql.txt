@@ -1,0 +1,47 @@
+Assignment – 3
+Q1. Print flight id, followed by each payment method having the total fare amount.
+Sort the output in ascending order of flight id.
+
+ 
+
+Q2. Determine the booking status distribution (percentage) for each payment method.
+Order by descending of booking_status_percentage
+Print payment_method, booking_status_percentage
+
+ 
+
+Q3. Retrieve the passenger details for the top 5 passengers with the most frequent bookings (in terms of rank),
+along with the count of their bookings and the rank of each passenger based on the booking count.
+Print passenger First_name, last_name,number_of_bookings, booking_rank
+Sort the output in ascending order of rank
+For the Same Rank sort the output in ascending order of first name
+
+ 
+
+Q4. Calculate the cumulative total fare for each passenger
+Print BOOKING_ID, PassengerID, BOOKING_DATE, TOTAL_FARE, cumulative_total_fare
+Sort the output in ascending order of Passengerid.
+For the same Passengerid sort the output in ascending order or booking date
+
+ 
+
+Q5. Calculate the average ticket price for each airline and compare it with the overall average ticket price.
+Include the airline name, average ticket price, and whether it is "Above", "Below", or "Equal" to the overall average.
+Print airline_name, average_ticket_price, comparision_result
+Sort the output by ascending order of airline_name.
+NOTE: Make sure to Round your values upto 2 decimals for each aggregation
+
+ 
+
+Q6. Objective:
+To gather and analyze comprehensive flight information for long-distance flights (over 6000 km) that have senior passengers (age 70 and above). This query is designed to assist in evaluating service provisions, operational efficiency, and passenger demographics on such flights, facilitating better planning and resource allocation for these specific scenarios.
+Data Ordering:
+•	Sort the results primarily by flight_id in ascending order for systematic reporting.
+•	Secondary sorting by passengerid also in ascending order to organize data by individuals within the same flight.
+Expected Outcome:
+A detailed report showcasing key aspects of flights that meet the specified criteria, presented in a structured format that highlights the operational and demographic details pertinent to managing long-distance flights with elderly passengers. This report will aid airlines in enhancing passenger care, adjusting service offerings, and optimizing overall flight logistics for this specific passenger segment.
+
+ 
+
+
+
