@@ -1,0 +1,67 @@
+ASSIGNMENT – 3
+Q1. Print all details of Orders which either have Total Order Amount less than 5000 or which were shipped by shipper with ID 2.
+Sort your output in ascending order of OrderID.
+
+ 
+
+Q2. Identify Customers whose FirstNames start with the letter K.
+Print all details of these customers.
+Sort the result set in ascending order of CustomerID.
+ -
+ 
+
+Q3. Identify Customers in the database whose first name starts with the letter H and last name starts with the letter W.
+Print all details of these customers.
+Sort the result set in ascending order of CustomerID.
+
+Q4. Identify Customers in the database whose first name does not start with the letter H but last name starts with the letter W.
+Print all details of these customers.
+Sort the result set in ascending order of CustomerID.
+ -
+ 
+
+Q5. Print the average order amount for orders which were paid for using payment method with ID 3.
+
+Q6. Print all details of Orders which were placed by Customers whose ID is a multiple of 10, payment method by Payment with ID 4, shipped by Shipper with ID 3 and which are greater than 30,000 in order value.
+Sort the result set in descending order of Customer ID.
+
+ 
+Q7. Print the Total Revenue Generated and the Average Order Amount of orders which were paid with payment method 5 and were shipped by shipper with ID 1.
+You need to print 2 columns in the output - 1 for the Total Revenue Generated, 1 for the Average Order Amount.
+
+Q8. Create an email of each customer as customerid@masai.com. So for customer with ID 500, his ID should be created as '500@masai.com'.
+Print CustomerID, First Name, Last Name and the newly created email address.
+Sort the result in ascending order of CustomerID.
+ -
+ 
+Database Schema
+
+Q9. Print the total Market price of products whose Category ID equal to 5011.
+
+
+
+
+
+
+
+Q10. Print all unique brand name where type is "Air Freshener".
+Sort the ouput in ascending order.
+ -
+ 
+
+Q11. Find the number of customers who placed the order in first month of year 2021.
+
+Q12. Print all the details of table Order Details with Quantity more than 19.
+Sort the output in ascending order of Order Detail Id.
+
+ 
+
+Q12. Print all Product Name where type is "Imported Cleaners" and Market Price is more than 400.
+Sort the Product Name in ascending order.
+
+ 
+
+Q13. We are writing an API that shows all the customerData in series of pages.
+Each page contains 5 customers
+Output the Customer data that will be displayed on 6th page
+Expected Output 

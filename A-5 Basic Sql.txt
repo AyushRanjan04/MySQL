@@ -1,0 +1,50 @@
+ASSIGIMENT – 5
+Q1. Find the Number of Customers belonging to each Country.
+Print the Country column first followed by the Number of Customers belonging to each Country in the second column.
+Sort the result in alphabetical order of Country Names.
+
+ 
+
+Q2. Get the Total Quantity of products ordered for each order.
+Print the columns Order ID and Total Quantity in the output.
+Sort the result set in ascending order of Order ID.
+
+ 
+
+Q3. Get the total number of records for each Brand.
+Print the Brand name in alphabetical order in the first column followed by number of products for respective brands in second column.
+ -
+ 
+Q4. Get the maximum Market Price of products for each Type.
+Print the Type in alphabetical order in the first column, followed by the maximum Market Price in the second column.
+
+ 
+
+Q5. Calculate the total quantity of products per order irrespective of ProductID for each order.
+Print OrderID and Total Order Quantity.
+Filter to only print orders which have total quantity greater than 100.
+Sort the result set in ascending order of OrderID.
+
+Q6. Calculate the total product quantity supplied by each supplier.
+Print Supplier ID and Total Quantity.
+Filter to only print Suppliers who shipped more than 48000 in quantity.
+Sort the result set in ascending order of SupplierID.
+
+Q7. Print the average spend per order and the total spend across all orders, made by Customer with ID 57100.
+ - (Numbers are not actual.)
+ 
+Q8. Find the average Total order amount for each shippers and each Total order amount should be divisible by 550.
+Sort the output in decreasing order of Shipper ID.
+
+ 
+
+Q9. Find the sum of the total order amount for each shipper whose ShipperID is the same as the PaymentID.
+In the output, print the ShipperID and the sum of the total amount.
+Sort the output in increasing order based on the ShipperID.
+Smaple Output -
+ 
+
+Q10. Find the total amount for each shippers whose Customer ID is divisible by Payment ID.
+Print Shipper ID and total amount.
+Hint take Total order amount for finding the total amount.
+Sort the output in increasing order of Shipper ID.

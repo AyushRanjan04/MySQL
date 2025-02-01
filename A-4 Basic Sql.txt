@@ -1,0 +1,57 @@
+ASSIGNMENT – 4
+Q1. Print the total revenue made by the company which was received through Payment Id - 2.
+(Use Total_Order_Amount to calculate revenue)
+
+Q2. Print the first and the last order dates on which the orders were placed as stored in the database.
+
+ 
+
+Q3. Print the least order amount placed by any customer.
+
+Q4. Print all details of Customers whose first names do not start with Vowels.
+Sort the result in ascending order of CustomerID.
+ -
+ 
+
+
+
+
+Q5. Print all details of Customers whose first names start with a Vowel and Phone Number starts with 9.
+Sort the result in ascending order of CustomerID.
+ -
+ 
+
+Q6. Print the count of Orders whose Total_order_Amount value is an even number.
+
+Q7. Print the unique Last names of customers whose details are stored in the database.
+Sort the result set in reverse alphabetical order of the Last names.
+
+ 
+Q8. Print ProductID and the combination of Brand Name and Product Name.
+The Brand Name and the Product Name should be separated by a space, an hyphen, followed by another space.
+Sort the result set in ascending order of ProductID.
+ -
+ 
+
+Q9. What is the phone number of customer whose firstname is Ezra and lastname is Duncan
+
+Q10. Print the following Table
+ 
+The table identifies the customers who do not have a last name stored in the database.
+For such customers, you are then required to put 'Doe' as their last name along with the other details.
+Sort the result in ascending order of CustomerID.
+Q11. Print the customer ID, first name, last name, and the month name of their date of birth from the customers table. Sort the results by customer ID in ascedning order.
+ -
+ 
+
+Q12. We are working on a page that shows all the details in OrderDetails table with 10 rows in each page.
+For example, if you use limit 10,10 it will return records 11 to 20 depending on orderby condition
+Sorting should be done on OrderDetailID and then OrderID in ascending order, Display the records on 10th page
+
+Q13. Print all details of orders which were ordered on the 16th of December 2021 and were paid through using payment with ID 4.
+Sort the result in ascending order of OrderID.
+ -
+ 
+
+Q14. Print all details of Products where there is no discount offered (consider looking at their Sale_price and Market_price values) and whose sale price is greater than 2500.
+Sort the result in ascending order of ProductID.

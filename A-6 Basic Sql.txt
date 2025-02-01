@@ -1,0 +1,82 @@
+ASSIGIMENT – 6
+Q1. Count the number of Customers from Germany
+Q2. Get the average Market Price across combinations of each Brand and Type.
+Print Brand in first column, Type in second column, followed by corresponding average Market Price in the third column.
+Sort the result set in alphabetical order of Brand, for rows with same Brand, sort them in alphabetical order of Type.
+
+ 
+
+
+
+
+
+
+
+
+
+Q3. Identify the number of orders placed in each month of the year 2021.
+Print Month followed by Number of Orders.
+Sort the result set in ascending order of Month.
+
+ 
+
+Q4. Identify the Month-Year combination which had the Highest Customer Acquisition.
+Print Month, Year, Number of Customers whose details were entered into the database.
+NOTE  Ouput has only one line
+
+Q5. Print the Month number and number of orders ordered in that particular month for each of the months of the year 2020.
+Consider the dates from OrderDate for this calculation.
+Print for only those months where the number of orders placed is less than 100.
+Sort the result set in ascending order of Month number.
+Use MONTH( Relevant_Column ) and YEAR( Relevant_Column ) to extract the month and year from the given date column for generating the result set.
+
+ 
+
+Q6. Identify and print top three months where the most number of orders were delivered across both the years 2020 and 2021.
+Print Month Number, Month Name, followed by the order count.
+Sort the result in descending order of Count.
+ -
+ 
+
+Q7. Identify the count of orders Shipped in each of the first 6 months of 2021.
+Print the month name followed by the count of orders.
+Sort the result in descending order of Count.
+
+ 
+
+
+Q8. Print the following table which depicts the length of first names in the customers table along with the corresponding count of such names.
+Sort the result in ascending order of Length of FirstNames.
+Required Result
+ 
+
+Q9. Write a query to calculate the total Sale price for each Category that has an even Category ID.
+Sort your output in increasing order of Category ID.
+
+ 
+
+Q10. Write a query to calculate the total count of unique Product IDs for each order in the Orderdetails table, where the count of unique Product IDs is exactly 5.
+Print Order Id and total count.
+Sort the output in ascending order of Order ID.
+
+ 
+Q11. Get the sum of the Total order amount for each shipper for all Orders whose Total order amount would be greater than 12500.
+Sort the output in increasing order of Shipper ID.
+
+ 
+
+Q12. Print the days of the week(Sunday , Monday ...) ,the average order amount for that day, and the total number of orders placed on that day.
+Order the output in descending order of average order amount.
+Sample output
+ 
+
+Q13. Print the brand names and total number of products of those brands currently selling at a discount of more than 50%. Sort the table in descending order based on the number of products and in ascending order based on the brand names.
+Smaple Output -
+ 
+Q14. The stakeholders wants to know about those 5 Sub categories who has the most products with no discount (consider looking at their Sale_price and Market_price values).
+Give Sub Category name and total products with no discount.
+Sort the result in descending order of total Product.
+ 
+ 
+Q15. What is the number of customer acquisitions for each month in the year 2021?
+Print the month number and the count of customer acquisitions. Sort the table in ascending order by month.

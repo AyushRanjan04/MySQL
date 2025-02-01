@@ -1,0 +1,27 @@
+--------------------- ASSIGNMENT -  1 ---------------------------------
+
+Basic to intermediate questions
+ASSIGNMENT -  1
+
+Q1. Print the Customers table, order output in descending order of CustomerID.
+
+ 
+
+Q2. Print details of orders which have total order amount between 10000 and 20000 (both inclusive).Sort your output in ascending order of OrderID.
+
+ 
+
+Q3. Print all details of Suppliers whose details are stored in the database.
+Sort the result in Alphabetical order of Company Name.
+
+ 
+
+Q4. Print the customers details who are from Bremen City.
+Sort the output on ascending order of Customer Id.
+ -
+ 
+
+Q5. Print details of all the products whose brand name is BB combo.
+Sort the order in ascending order of Sub Category, if there are same Sub Categories then sort by Product Id in ascending order.
+
+ 

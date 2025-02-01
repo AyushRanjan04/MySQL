@@ -1,0 +1,116 @@
+ASSIGNMENT – 7
+Q1. Print all the unique City names the customers belong to, order output in alphabetical order of City name.
+
+ 
+
+Q2. Print all details of products whose Market price is greater than 2000.
+Sort the output in ascending order of Product ID.
+
+ 
+
+Q3. Get the city and states which have less than 3 customers.
+Print City, State and Count of customers who belong to that city.
+Sort the result set in alphabetical order of City names.
+Sample output
+ 
+
+Q4. Get the minimum Sale price of products for each Sub Category.
+Print the Sub Category in alphabetical order in the first column, followed by corresponding minimum Sale price in the second column.
+
+ 
+
+
+Q5. Identify the Average Order Amount by each Customer in each Month of Year 2020.
+Print Customer ID, Month, Average Order Amount.
+Sort the result set in ascending order of Customer ID.
+For records with the same Customer ID - sort them in ascending order of Month.
+
+ 
+
+Q6. Identify Unique First Names of Customers in the database. Print Count of these FirstNames in the output.
+Q7. Print the highest and the lowest order amounts in the database.
+Q8. Calculate the average sale price of products sold by each brand.
+Print Brand, Average Sale Price of Products.
+Filter to only print Brands whose average sale price of Products is greater than 1000.
+Sort the result in alphabetical order of Brand Name.
+
+Q9. Print CustomerID, First Name, Last Name, City, Email and Phone number of Customers whose Phone number starts with the digit 9 and ends with the digit 8.
+Sort the output on ascending order of CustomerID.
+ -
+ 
+
+Q10. Print the average sale price and the average market price of products produced by the Brand Fresho.
+Q11. Categorize the Customers into 2 classes based on Year of Birth.
+'Old' - when the Year of Birth is less than 1995.
+'Young' - when the Year of Birth is greater than or equal to 1995.
+Print CustomerID, FirstName, LastName and the new classification.
+Sort the result set in ascending order of CustomerID.
+
+Q12.	Print all the columns from the Orders table except the PaymentID and ShipperID Columns, and follow the same order in which the columns are arranged in the table.
+Filter your records to include only those customers whose CustomerID is a multiple of 5.
+Order your output in ascending order of OrderID.
+
+Q13. Identify the number of phone numbers in the database that start with the digits 6,7,8 and 9.
+Print the start digit (6,7,8,9) in the first column, followed by the count in the second column.
+Sort the result in ascending order count.
+
+Q14. Print all product details from the 'products' table and add an additional column named 'discount' which represents the difference between the market price and the sale price.
+Sort the table in descending order based on the 'discount' column and ascedning order based on Product Id .
+Expected Output 
+ 
+Q15. What is the total order amount for each payment method in each year?
+Print the year, payment ID, and the sum of the total order amount for each combination of year and payment ID.
+Sort the results in ascending order based on the year, and within each year, sort the payment IDs in ascending order as well.
+ -
+ 
+Q16. What is the list of order dates and their corresponding sum of total order amounts from the orders table where the sum of total order amount is greater than the maximum total order amount of any other order date plus 5000? The results should be sorted in descending order by order date.
+Hint Take total order amount column to finding amounts.
+
+ 
+
+Q17. 
+Description
+
+Submissions
+
+Print every detail from the Order Details table.
+Sort the output in descending order of Order Detail Id.
+
+ 
+
+Q18. Identify the number of phone numbers in the database that start with the digits 6,7,8 and 9.
+Print the start digit (6,7,8,9) in the first column, followed by the count in the second column.
+Sort the result in ascending order count.
+
+Q19. Print all product details from the 'products' table and add an additional column named 'discount' which represents the difference between the market price and the sale price.
+Sort the table in descending order based on the 'discount' column and ascedning order based on Product Id .
+Expected Output 
+ 
+Q20. What is the total order amount for each payment method in each year?
+Print the year, payment ID, and the sum of the total order amount for each combination of year and payment ID.
+Sort the results in ascending order based on the year, and within each year, sort the payment IDs in ascending order as well.
+ -
+ 
+
+Q21. What is the list of order dates and their corresponding sum of total order amounts from the orders table where the sum of total order amount is greater than the maximum total order amount of any other order date plus 5000? The results should be sorted in descending order by order date.
+Hint Take total order amount column to finding amounts.
+
+ 
+
+Q22. Print every detail from the Order Details table.
+Sort the output in descending order of Order Detail Id.
+
+ 
+
+Q23. You have decided to sell the Products of the Sub Category 'Stationery' whose sale price is greater than 200, at a new Price.
+Let the new price be calculated as the multiplication of the Sale Price and Market Price divided by the Sum of the two prices.
+Print ProductId, Product Name, Sub_category, Sale Price, Market Price, and the new price.
+Sort the result in ascending order of ProductID.
+ -
+ 
+Q24. Calculate the Average Order Amount and Sum of the Order Amounts of all orders which were Shipped by Shipper with ID 1 and Paid for by using Payment with ID 3.
+Print the Average Order Amount in the first Column, Sum of the Order Amounts in the second Column.
+
+Q25. Print OrderID, CustomerID, PaymentID, OrderDate and order amount of orders paid for by using Credit Cards and whose order amount is between 100 and 1000 bucks (both values inclusive).
+Sort the result in ascending order of OrderID.
+Identify the PaymentID of Credit Card payment method by looking at the Payments Table.
