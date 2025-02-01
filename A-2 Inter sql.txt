@@ -1,0 +1,49 @@
+Assignment – 2
+Q1. Print the unique Last names of customers whose details are stored in the database.
+Sort the result set in reverse alphabetical order of the Last names.
+
+ 
+
+Q2. Print all details of Orders which were placed by Customers whose ID is a multiple of 10, payment method by Payment with ID 4, shipped by Shipper with ID 3 and which are greater than 30,000 in order value.
+Sort the result set in descending order of Customer ID.
+
+ 
+
+Q3. Print the Customer First Name which comes last according to the alphabetical order.
+Hint: Apply MAX function on the relevant column.
+
+Q4. Print the CustomerID, First name, Last name, and Birth month name of each customer.
+Sort the result in ascending order of CustomerID.
+
+ 
+
+Q5. Identify the top three months which have the highest number of Births irrespective of the year.
+Print the Month Name followed by the count of customers.
+Sort the result in descending order of Count.
+
+ 
+
+Q6. Identify the last day of delivery for each Shipper.
+Print Shipper ID followed by the Last Delivery Date.
+Sort the result in ascending order of Shipper ID.
+
+ 
+
+Q7. Print Customer Id and Customer First Name as space seperated single string.
+Sort the result in ascending order of column values.
+
+ 
+
+Q8. Print SupplierID, Supplier Name and Address of the Supplier.
+Here address refers to Company name, City, State, and Postal code as space seperated single string.
+Sort the result in ascending order of SupplierID.
+
+ 
+
+Q9. Write a query to print all customer details.
+Order your output in ascending order of the first 3 characters of FirstName.
+For records with the same first 3 characters in the first name, sort them in ascending order of CustomerID.
+
+ 
+
+Q10. Calculate and Print the Average of Total Order Amount of all orders whose payment was made using Payment with ID 2.

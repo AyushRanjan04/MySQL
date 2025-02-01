@@ -1,0 +1,55 @@
+ASSIGNMENT – 7
+Q1. Print Product Details along with the corresponding sub category and type as a single entity.
+Let the Sub Category and Type be separated by a space, a hyphen, followed by another space.
+Print ProductID, Product Name, Brand Name followed by the newly created entity.
+Sort the result set in ascending order of ProductID.
+
+ 
+Q2. Write a query to identify customer IDs who have ordered only once and find out how many months back the order was placed from now.
+Use timestampdiff to find the last ordered months ago
+Print customer ID along with the number of months count.
+Order your output in ascending order of Customer ID.
+
+Q3. Write a query to find the number of customers who entered each year.
+Print the year and the count of customers who entered in that year. Order by year.
+ (Not Actual Numbers)
+ 
+Q4. Write a query to find the Total order amount in each year during the festive season.
+(Consider festive season to be September,October and November months).
+Print 2x2 matrix of year and total order amount.
+Order your query based on ascending order of Year.
+ :
+ 
+
+Q5. Write a query to find all the Order IDs which took equal to or more than 5 days to ship after the order was placed.
+Print the OrderID, ProductID,Product Name and days taken to ship.
+Order your output in ascending order of OrderID, for records with same order ID, sort them in ascending order of ProductId.
+
+ 
+Q6. Write a query to find the highest order amount and it's corresponding order date for each customer.
+Print CustomerID,orderdate and total order amount.
+Sort the result in ascending order of CustomerID.
+
+ 
+Q7. Write a query to find the details of all orders placed by customers on their 5th Day of Ordering.
+Print the OrderId, CustomerId, Order Date and Payment Type.
+Avoid skipping ranks.
+Order your output in ascending order of Customerid. For records with same CustomerID, sort them in ascending order of OrderID.
+
+ 
+Q8. Write a query to find the top 3 OrderIds with highest order amount for each customer.
+Print OrderId, CustomerId and Rank.
+Avoid skipping of ranks.
+Order your query in ascending order of Customer Id.
+
+ 
+Q9. Write a query to find the top 2 products for each category with the highest market price.
+Print ProductId, Product name, CategoryId and Rank. Avoid skipping ranks.
+Sort the result in ascending order of CategoryId, for records with same CategoryId, sort them in ascending order of Rank, for records with same Rank, sort them in ascending order of ProductId.
+
+ 
+Q10. Write a query to find the top 3 products with highest discounts (market_Price - sale_price) , in terms of money, for each category.
+Print ProductId, Product Name, CategoryId and Rank. Avoid skipping ranks.
+Sort the result in ascending order of CategoryId, for records with same CategoryId, sort them in ascending order of ProductId.
+
+ 

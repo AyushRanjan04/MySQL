@@ -1,0 +1,44 @@
+Assignment – 1
+Instructions
+Q 1. Create a table with Columns - ID, First_Name, Last_Name, Phone_Number. Assign following constraints without naming them in a single SQL Syntax:
+ID - PRIMARY KEY Constraint
+
+First_Name - CHECK Constraint (Name needs to start with A)
+
+Last_Name - CHECK Constraint (Last_Name needs to have exactly 5 characters)
+
+Phone_Number - UNIQUE Constraint
+
+Q 2. Create a table with Columns - ID, First_Name, Last_Name, Phone_Number. Assign following constraints along with naming them in a single SQL Syntax:
+ID - PRIMARY KEY Constraint
+
+First_Name - CHECK Constraint (Name needs to start with A)
+
+Last_Name - CHECK Constraint (Last_Name needs to have exactly 5 characters)
+
+Phone_Number - UNIQUE Constraint
+
+Q 3. Create 2 tables Customers and Orders.
+Customers - ID, Name, Phone_Num, Address
+
+Orders - ID, Customer_ID, Total_Order_Amount
+-- Assign Primary Key constraints to suitable columns of both tables.
+-- Assign Foreign Key Constraint to CustomerID referencing it to suitable column of Customers table.
+
+Q 4. Import Customers table from here: https://drive.google.com/file/d/1W3ueqDoTbpkjd63jPDywyBlwhkM2Csgc/view?usp=sharing
+
+Define a Composite Primary Key Constraint on FirstName, LastName and City using the Alter Command.
+
+Q 5. Create following table:
+Users - ID, Name, Phone, Address, City, State, Country, Email.
+--Define a named Primary Key Constraint on Name, City and State.
+
+Q 6. Add Constraints to Existing Table: Given an existing table 'Employees' with columns - Emp_ID, Emp_Name, Department, Salary, Email. hint - If no table given you need to first create it then solve question
+•	Add a CHECK constraint to ensure Salary is greater than 3000.
+•	Add a UNIQUE constraint on Email.
+
+Q 7. Create Table with Multiple Check Constraints: Create a table 'Library_Books' with columns - Book_ID, Title, Genre, Publication_Year, Price.
+•	Book_ID - PRIMARY KEY Constraint
+•	Genre - CHECK constraint (must be either 'Fiction', 'Non-Fiction', 'Science', 'History')
+•	Publication_Year - CHECK constraint (must be after 1900)
+•	Price - CHECK constraint (must be positive)

@@ -1,0 +1,60 @@
+
+Assignment – 8
+Q1. Write a query to find the top 5 customers for each month with highest total order amount.
+Print order id,customer id, month number, order amount and rank.
+Avoid skipping ranks.
+Sort the result in ascending order of month number. For records with same month number, sort them in ascending order of rank.
+
+ 
+Q2. Write a query to assign s_no (or row_number) to the orders table by ordering total order amount in decreasing order. For orders with same total order amount, sort them in ascending order of OrderID
+Print only those records where s_no is even.
+Your output should contain the following columns: s_no,order id, customer id, total_order_amount.
+Sort the result in ascending order of s_no.
+
+ 
+
+Q3. Write a query to find the top 2 Sale prices for each type.
+Print all the columns of products table and the rank.
+Avoid skipping ranks.
+Sort the result set in alphabetical order of Type. For records with the same type sort them in ascending order of rank.
+
+ 
+Q4. Write a query to find the top 10 customers who placed the maximum number of orders in the year 2021.
+Print Customerid,first name and the number of orders placed.
+Sort the result in ascending order of CustomerID.
+
+Q5. Write a query to identify the customer from each country who placed that particular country's second most expensive order.
+Print orderid, customerid, first name, last name, total order amount, country and rank.
+Avoid skipping ranks.
+Sort the result in ascending order of OrderID.
+
+ 
+Q6. Write a query to assign s_no (or row_number) to the orders table by ordering total order amount in desc. For records with same order amount, sort them in ascending order of OrderID.
+Then, print only those records where s_no is odd.
+Your output should contain the following columns: s_no,order id, customer id, total_order_amount.
+Sort the result in inccreaasing order of s_no.
+
+ 
+
+Q7. Write a query to divide all the orders into 30 buckets on the basis of decreasing order of total order amount.
+Print all the records from orders table and the bucket number.
+
+ 
+
+Q8. Write a query to find the total order amount of the previous OrderID.
+Print all the details from orders table and the prevous order amount.
+
+ 
+
+Q9. Write a query to find the shipdate of the 10th following OrderID.
+Print all the details from orders table and the 10th following shipdate.
+
+ 
+
+Q10. Write a query to find the sum of total order amount for each shipper id and rank them basis the decreasing order of this sum.
+Print shipper id, total order amount and rank.
+Avoid skipping ranks.
+Sort the result in ascending order of rank.
+
+ 
+

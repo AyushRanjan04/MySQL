@@ -1,0 +1,103 @@
+ASSIGNMENT – 6
+Q1. Print all details of Orders which were placed by Customers whose ID is a multiple of 10, payment method by Payment with ID 4, shipped by Shipper with ID 3 and which are greater than 30,000 in order value.
+Sort the result set in descending order of Customer ID.
+
+ 
+
+Q2. Print the Customer First Name which comes last according to the alphabetical order.
+Hint: Apply MAX function on the relevant column.
+
+Q3. Get the sum of quantity shipped by each Shipper in each quarter of each year.
+Print Year, Quarter, ShipperID, Company Name, Quantity Shipped.
+Order your output in ascending order of the year.
+For records with same year - sort them in ascending order of quarter, for records with the same quarter - sort them in descending order of Total Quantity.
+Remember to consider the shipping date when getting the Year and Quarter information.
+
+ 
+
+Q4. Each order contains different bunch of products.
+Each of these products are supplied by different suppliers.
+Identify the orders for which one of the suppliers is from India.
+Finally print the count of such orders placed on each individual order date.
+Print the final output in descending order of orderdate.
+
+ 
+
+Q5. Create an email of each customer as customerid@masai.com. So for customer with ID 500, his ID should be created as '500@masai.com'.
+Print CustomerID, First Name, Last Name and the newly created email address.
+Sort the result in ascending order of CustomerID.
+
+ 
+Q6. Print ProductID and the combination of Brand Name, Product Name and the Type.
+The Brand Name, the Product Name and the Type should be separated by a space, an hyphen, followed by another space.
+Make sure to append only the first 20 characters of the Product Name.
+Sort the result set in ascending order of ProductID.
+
+ 
+Q7. Count the number of Products with a null value in sub category column.
+Q8. Calculate the average discount on products of each Brand.
+Print the Brand name and the corresponding average discount nearest integer value.
+(e.g. - 76.60 will be 77 and 76.10 will be 76)
+Only print those brands which have an average discount greater than 50%. Sort the result set in alphabetical order of Brand Name.
+
+Q9. Calculate the average discount percentage on products of each brand belonging to the bakeware sub category.
+Print Brand name and their average percentage discount in nearest integer value.(e.g. - 77.80 will be 78 and 77.10 will be 77)
+DISCOUNT = ((MARKET_PRICE - SALE_PRICE)/MARKET_PRICE) X 100
+Sort the result in desceding order of Average discount value.
+
+ 
+Q10. Write a query to find out the premium customers who have ordered gross total order amount more than 100000 in the past 24 months.
+Print Customer ID, First name,Last name and the total amount.
+Order your output in ascending order of Customer ID.
+(Hint - For 24 months calculation consider Today's date and time)
+
+ 
+
+Q11. Write a query to find out the top 3 selling categories in 2020.
+Print Category ID, Category name and the number of orders placed.
+Order your output in descending order of number of order.
+
+ 
+
+Q12. Write a query to rank the products on the basis of highest selling price within each category.
+If two Products has same selling price then ranking took alphabetically their name in consideration.
+Prevent skipping of ranks.
+Print ProductID, Product Name, CategoryID, Brand, Sale Price and Rank.
+
+ 
+Q13. Identify the products whose names consist of the word 'Baby'.
+Then count the number of such products for each Category and Sub Category.
+Print Category ID, Category Name, Sub Category and followed by the Count.
+Sort the result in ascending order of Category ID. Secondary sort on the basis of alphabetical order of Sub Category.
+
+ 
+
+Q14. Print Product Id, Product Name, Difference between Market Price and Sale Price and Discount Status.
+Discount Status should be:
+'High discount' -> if the Difference betweeen Market Price and Sale Price greater than 1500.
+'Medium discount'-> if Difference betweeen Market Price and Sale Price greater than 500 and less than equal to 1500.
+'Less discount' -> if Difference betweeen Market Price and Sale Price greater than 0 and less than equal to 500.
+'No Discount' -> if the Difference betweeen Market Price and Sale Price is 0.
+Sort the output in descending order of the Difference and ascending order of Product Id.
+Note : Difference = Market Price - Sale Price
+
+ 
+
+Q15. We want to analyze on which Weekday of Month customers ordered the most, for each month in the year 2021.
+Print Months name, Weekday name, Number of orders ordered.
+If a month has two days where same Number of orders were placed consider them all.
+Sort the output in descending order of Number of orders ordered.
+Note : Weekday name as in Monday,Tuesday ..... and so on.
+ :
+ 
+
+Q16. Write a SQL query to list each product's name, category name, total quantity sold, and total sales amount. The output columns should be Product Name, Category Name, Total Quantity Sold, and Total Sales Amount. Order the results first by Category Name in ascending order and then by Total Sales Amount in descending order.
+Sample Result
+ 
+
+Q17. Construct a SQL query to compile a list of customers whose number of orders exceeds the average order count across all customers in the database. The campaign management team will use this list to recognize and reward these customers for their loyalty. The output should contain the following information:
+•	CustomerID: The unique identifier for the customer.
+•	FirstName: The first name of the customer.
+•	LastName: The last name of the customer.
+•	TotalOrders: The total number of orders that the customer has placed.
+Order the results first by TotalOrders in descending order to highlight the customers with the highest number of orders. Apply secondary sorting by CustomerID in ascending order to organize customers with the same number of orders.

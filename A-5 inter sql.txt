@@ -1,0 +1,56 @@
+ASSIGNMENT – 5
+Q1. Write a query to find the Orders which were delivered exactly in 2 days.
+Print Order Id, Customer ID, Order Date, Delivery Date and Total Order Amount for each of these orders.
+Order your output in terms of Customer ID asc.
+
+ 
+Q2. Identify the top 5 categories which had the highest quantity of products ordered.
+Print Category ID, Category Name and Corresponding Total Quantity.
+Sort the result in descending order of Total Quantity.
+ 
+
+Q3. Identify the top 5 products in terms of total quantity sold.
+Print Product Name, Sale Price, Market Price and Total Quantity.
+Order your output in descending order of total quantity for the same number of quantities order your output by Product.
+
+ 
+
+Q4. Print Order ID, Customer ID, Payment ID, Payment Type, and Total Order Amount for all orders which were paid through by a non-card payment type.
+Card payment types are 'Credit card' and 'Debit card'.
+Sort the result in ascending order of Order ID
+
+ 
+
+Q5. For each customer print the following sentence. Consider only those customers who ordered at least once.
+Sort the output in ascending order on Customer Id. Example - James placed their first order in May 2020
+ 
+Q6. Write a query to find the average discount percenatge for each Category.
+Discount % = ((Market Price - Sale Price)/Market Price)* 100
+Print the Category ID along with average discount percentage(Round the avg discount percentage to 2 decimals).
+Sort the output in ascending order on CategoryId.
+HINT: Use CTE for this question.
+
+ 
+
+Q7. Write a query to find the top 3 months with the highest customer acquisition.
+Print the months in string format like January, February,etc along with the count of customers entered in that month.
+ :
+ 
+
+Q8. Write a query to print all the product details with Sub category as 'All Purpose Cleaners' and 'Bakeware'.
+Print all the columns present in Products table.
+Order your output in ascending order of Product ID.
+Solve the problem using CTEs.
+
+ 
+
+Q9. Write a query to find the number of customers who entered each Quarter.
+Print the Quarter and the count of customers who entered in that Quarter.
+Order your output in ascending order of Quarter.
+
+ 
+
+Q10. Identify the orders which were ordered in 2020 but delivered in 2021.
+Print all details of such orders along with the difference in days from the order date to the delivery date.
+Filter to only print details of orders where the difference between the 2 dates in terms of days in greater than or equal to 25.
+Sort the result in ascending order of OrderID.

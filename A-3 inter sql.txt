@@ -1,0 +1,64 @@
+Assignment – 3
+
+Q1. Print Customer ID, First Name, Last Name, Date of Birth and Customer's current age.
+Sort the result in ascending order of CustomerID.
+Note: Use NOW() function as CP will not allow you to use GETDATE().
+
+ 
+
+Q2. Identify the First Day of Delivery for each Shipper.
+Print Shipper ID, Shipper Company Name followed by the First Delivery Date.
+Sort the result in ascending order of ShipperID.
+
+ 
+
+Q3. Print month names followed by the number of orders delivered in that particular month for all months of the year 2020.
+Sort the result in descending order of order count.
+
+ 
+
+Q4. Identify and print top three months where the most number of orders were delivered across both the years 2020 and 2021.
+Print Month Number, Month Name, followed by the order count.
+Sort the result in descending order of Count.
+
+ 
+Q5. Identify and print top 5 months where the most orders were delivered across 2021.
+Print Month Name, followed the order count.
+Sort the result in descending order of count.
+
+ 
+
+Q6. Identify and print the top 3 months where the least orders were delivered.
+Considering each of the months of all years as single entity.
+For example, Jan of 2020 and 2021 will be considered as a single entity and so on
+Print Month Name, followed by the order count.
+Sort the result in ascending order of Count.
+
+ 
+
+Q7. Write a query to identify pairs of customers who belong to the same state.
+Print First customer's id, first name, second customer's id, first Name and state.
+Make sure you do not print a pair in which the customer ids are the same.
+Let the first customer's id be less than the second customer's id.
+Sort the result in ascending order of first customer's id.
+For records with the same first customer's id, sort them in ascending order of second customer's id.
+ 
+
+Q8. Calculate the total spend across orders of customers whose full name consists of the letter 'a'.
+Print Customer ID, Full Name and Total Spend.
+Let the full name be combination of First Name and Last Name separated by a space.
+Sort the result in ascending order of Customer ID.
+If you see blank cells in the full name column that means you have concatenated a string with null.
+For such cases just print the first name without any concatenation.
+
+ 
+
+Q9. Write a query to get the order IDs of all the orders which were paid either using Credit card or debit card.
+Print Order ID, Customer ID, Payment type and Total Order Amount.
+(Replace Credit card with 'Credit' and Debit card with 'Debit' - Use REPLACE Function and not CASE WHEN).
+Sort the result in ascending order of Order ID.
+
+ 
+
+Q10. Write a query to find the total Sale price for each Brand of all products where the Quantity is an even number.
+Sort the output in descending order of Brand.
